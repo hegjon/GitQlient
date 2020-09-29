@@ -1,6 +1,6 @@
 Name:    {{{ git_name name="gitqlient" }}}
 Version: pre-1.3.0
-Release: {{{ git_version }}}%{?dist}
+Release: {{{ git_version [name="${OUTPUT[git_name]}"] [lead=0] [follow=] }}}%{?dist}
 Summary: A multi-platform Git client
 
 License:    LGPLv2
